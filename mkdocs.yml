@@ -1,0 +1,9 @@
+site_name: QQL Onboarding
+
+nav:
+    - Home: 'index.md'
+    - API: 'api.md'
+    - Bybit: 'bybit.md' 
+
+theme:
+  name: material
