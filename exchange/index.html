@@ -13,7 +13,7 @@
     
     
       
-        <title>API - Bybit - QQL Onboarding</title>
+        <title>Exchange - Review - QQL Onboarding</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bybit" class="md-skip">
+        <a href="#exchange-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API - Bybit
+              Exchange - Review
             
           </span>
         </div>
@@ -194,11 +194,59 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../exchange/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Exchange - Review
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Exchange - Review
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bybit" class="md-nav__link">
+    Bybit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#okx-formerly-okex" class="md-nav__link">
+    OKX (formerly OKEx)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -239,52 +287,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          API - Bybit
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../bybit/" class="md-nav__link">
         API - Bybit
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#bybit-creating-api-keys-and-connecting-to-qql" class="md-nav__link">
-    Bybit: Creating API Keys and connecting to QQL
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -331,8 +338,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#bybit-creating-api-keys-and-connecting-to-qql" class="md-nav__link">
-    Bybit: Creating API Keys and connecting to QQL
+  <a href="#bybit" class="md-nav__link">
+    Bybit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#okx-formerly-okex" class="md-nav__link">
+    OKX (formerly OKEx)
   </a>
   
 </li>
@@ -352,45 +366,33 @@
                   
 
 
-<h1 id="bybit">Bybit</h1>
-<h2 id="bybit-creating-api-keys-and-connecting-to-qql">Bybit: Creating API Keys and connecting to QQL</h2>
-<ol>
-<li>
-<p>Log in to your account at <a href="https://www.bybit.com">Bybit</a></p>
-</li>
-<li>
-<p>Follow the link to your Account API Management Page <a href="https://www.bybit.com/app/user/api-management">Bybit API Management</a></p>
-</li>
-<li>
-<p>Click CREATE NEW KEY
-    <img alt="Create_Key" src="../img/bybit/bybit_1_create_key.png" /></p>
-</li>
-<li>
-<p>Select "API Transaction", put in a name (e.g. QQL), select "Read-Write", and choose "No IP Restriction".</p>
-</li>
-<li>
-<p>In Contracts tick "Orders and Positions"; Tick "Trade" for USDC Contracts, Derivatives API V3, and SPOT. Finally tick "Exchange History" and press "Submit". </p>
-<p><img alt="Select API Parameters" src="../img/bybit/bybit_2_api_parameters.png" /></p>
-</li>
-<li>
-<p>Perform the security verification to derive to an API overview.</p>
-<p><img alt="Copy_API" src="../img/bybit/bybit_3_copy_api.png" /></p>
-</li>
-<li>
-<p>Open the QQL API Form page: <a href="https://qql-api-form.anvil.app/">QQL API Form</a> and log in. At the first usage you need to "Sign up for a new account" and follow the steps. </p>
-<p><img alt="API_Form" src="../img/bybit/bybit_4_qql_api_form.png" /></p>
-</li>
-<li>
-<p>Enter your name (or alias), select the correct exchange and copy the API Key &amp; API Secret from step 6. Finally press "Submit".</p>
-<p><img alt="API_Form" src="../img/bybit/bybit_5_qql_api_form_submitted.png" /></p>
-</li>
-<li>
-<p>Go back to the Bybit API overview from step 6 and click "Understood" on the window with the 2 API Keys and create a reminder on your calendar for the date of expiration (3months from date of creation) of your API Key, so that you can create a new one a few days prior to the expiration.</p>
-</li>
-<li>
-<p>You are all Set and Ready to make Profits with Us!</p>
-</li>
-</ol>
+<h1 id="exchange-overview">Exchange Overview</h1>
+<p>Here you can find an overview of key features of the individual exchanges.</p>
+<h2 id="bybit">Bybit</h2>
+<p>Started in 2018, the ByBit platform posits itself as the key market player in the crypto derivatives space, friendly to veteran and newcomer traders alike. Led by its CEO Ben Zhou, the platform is based in Singapore, but its outreach is already a global one, thanks to an impressive array of features, including:</p>
+<ul>
+<li>Margin trading with up to 100x leverage. Trade Bitcoin, Ethereum, EOS, and XRP perpetual contracts with up to 50x, 100x or lower leverage to find a suitable balance between risk and profits.</li>
+<li>Multi-currency support. At ByBit, you have the ability to deposit, withdraw, and open positions in BTC, ETH, EOS, XRP, and even USDT (not available for trading, hedging only). Use the internal Asset Exchange feature to convert cryptocurrencies with ease.</li>
+<li>Low fees. ByBit offers some of the most competitive margin trading fees on the market.</li>
+<li>No KYC exchange. The platform does not ask you for any personal or private information.</li>
+<li>Powerful and well-designed trading interface. ByBit has a robust, powerful and well-designed platform and is easy to navigate yet is full of advanced options. It can handle up to 100,000 trades per second.</li>
+<li>Secure platform. The exchange has no history of hacks, breaches, or leaked user information.
+24/7 customer support. The support is available in multiple languages and takes the form of desk-based live chat function and email.</li>
+</ul>
+<p>All in all, ByBit is a relatively fresh yet ambitious margin trading exchange and a viable alternative to competing leverage trading sites like BitMEX or PrimeXBT.</p>
+<p>Bybit is a relatively new exchange that started in the 2018 bear market. Although its headquarters is in Singapore, the exchange is incorporated in the British Virgin Islands as Bybit Fintech Limited. Besides Singapore, ByBit has offices in Hong Kong and Taiwan.</p>
+<p>For further details visit <a href="https://cryptonews.com/reviews/bybit-review/">Cryptonews Review</a>.</p>
+<h2 id="okx-formerly-okex">OKX (formerly OKEx)</h2>
+<p>Too many options could be daunting for someone just getting into crypto. Although there are such a range of finance choices with OKX, the platform is arranged in a simple and welcoming way. With a multitude of cryptocurrency pairs, fiat-to-crypto gateway, it is easy to see why OKX has become one of the biggest exchanges around. The high amount options you have at your disposal are reason alone to add OKX to your repertoire of exchanges:</p>
+<ul>
+<li>Fiat-to-crypto on-ramp: OKX supports 400+ trading pairs and allows you to use Apple Pay, Visa, Mastercard, bank transfer, Alipay, WeChat pay, etc, to convert your fiat into crypto. They also support 30+ cryptocurrencies from Canadian dollars (CAD), Chinese yen (CNY), euros (EUR), Japanese yen (JPY), Hong Kong dollars (HKD), Chilean peso (CLP), and many more.</li>
+<li>Margin trading: Using margin trading with up to 125x leverage, with perpetual, futures and options trading as well, there are a good amount of tools users can use to trade.</li>
+<li>Finance options: A plethora of finance options with Earn, which lets you earn passive income on your crypto holdings, Loan, Jumpstart token staking feature, mining pool, OKX bridge feature, OKB utility token, OKX Cloud, OKX Blockdream Ventures, the options available are vast and some of the widest in the industry.</li>
+<li>Extra security options: With mandatory 2FA authentication, mobile verification, Google Authenticator options, anti-phishing code, OKX’s claims of making security a priority are sound.</li>
+<li>Decentralized exchange option: Along with standard DEX trading, OKX’s decentralized platform offers swap trading, liquidity pools, farm pools, decentralized wallet, OKX has tools for those who would rather exchange in a decentralized fashion.
+Overall, OKX will let you plunge deep into the cryptocurrency ecosystem with options you can experiment with. The platform attempts to become a ‘one-stop marketplace’. In many ways, OKX has succeeded in that regard.</li>
+</ul>
+<p>For further details visit <a href="https://cryptonews.com/reviews/okex/#pros--cons">Cryptonews Review</a>.</p>
 
 
 
@@ -411,7 +413,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../api/" class="md-footer__link md-footer__link--prev" aria-label="Previous: API - Introduction" rel="prev">
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -420,20 +422,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              API - Introduction
+              Home
             </div>
           </div>
         </a>
       
       
         
-        <a href="../okx/" class="md-footer__link md-footer__link--next" aria-label="Next: API - OKX" rel="next">
+        <a href="../por/" class="md-footer__link md-footer__link--next" aria-label="Next: Exchange - Proof of Reserves" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              API - OKX
+              Exchange - Proof of Reserves
             </div>
           </div>
           <div class="md-footer__button md-icon">
