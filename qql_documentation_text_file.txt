@@ -1,0 +1,239 @@
+ 
+# Home
+
+## Introduction 
+If there's one thing we can all agree on, it's that 2022 has been a rough year for everyone in the crypto industry — traders and exchanges alike. Following the FTX saga, which culminated in a bankruptcy announcement on November 11, 2022, security has been thrust into the spotlight.
+As QQL we have been working on to support multiple exchanges in order too avoid any single point of failure and to balance risk. 
+
+So far we support the exchanges Bybit and OKX. 
+Bybit does not require any KYC if you are ok to withdraw max. 2 BTC per day. For OKX the KYC process is straight forward.
+
+Support for further exchanges is planned to come in future.
+Both exchanges support proof of reserves, or PoR as a security measure.
+
+## Account Opening
+If you would like to create an account at one of these exchanges you can do by using the following referral links:
+
+1. [Bybit](https://www.bybit.com/invite?ref=MGRD89)
+
+2. [OKX](https://www.okx.com/join/46123721)
+
+On this site you get further information on the two exchanges and how you can give QQL the required API access.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Proof of Reserves (PoR)
+
+## Introduction
+
+If there's one thing we can all agree on, it's that 2022 has been a rough year for everyone in the crypto industry — traders and exchanges alike. Unfortunately, the bearish streak doesn't look to be ending any time soon. Following the FTX saga, which culminated in a bankruptcy announcement on November 11, 2022, proof of reserves, or PoR, has been thrust into the spotlight.
+
+What exactly is PoR, and why does it matter?
+
+### What Is Proof of Reserves (PoR)?
+
+In simple terms, proof of reserves (PoR) refers to a background check (or an independent audit) conducted on crypto exchanges by a third-party auditor. This advanced cryptographic accounting procedure uses a structure called a Merkle Tree, which breaks down complex data into smaller, more digestible chunks for faster and more efficient processing.
+
+The end goal is to ensure that the exchange is financially stable, and carries an amount either equal to or greater than the sum of the clients' balances.
+
+### Why Proof of Reserves Is Important
+Ensures 100% Transparency & Protects Client Assets
+Laying everything on the table deters a crypto exchange from making secretive financial transactions, such as loaning out more money than the collateral it holds and risking insolvency. In doing so, the clients’ assets are protected as well.
+
+### Helps Exchanges Gain Users' Trust
+Proof-of-reserve audits provide an unbiased and completely honest picture of a crypto exchange's funds/financial backing, thereby helping users make more informed decisions. The presence of a PoR reassures users that their money is backed by real assets — while a larger user base translates to greater potential profit, making it a win-win situation.
+
+### The Trigger: FTX's Collapse: What Is FTX, and What Happened?
+On November 2, 2022, the balance sheet of one of the biggest exchanges in the world — FTX — was leaked. With it came the revelation that its funds/reserves consisted largely of its native token, FTT. The issue is that FTT is printed directly by FTX and Alameda Research… Meaning the value of the exchange was likely to have been inflated, with many misled into thinking FTX was doing better than it actually was.
+
+Due to unspecified “recent revelations,” Binance CEO Changpeng Zhao said his firm would liquidate its holdings of FTT. A stop was put to FTX withdrawals on November 8, 2022. The same day, Binance offered to buy out FTX, but withdrew its offer the very next day. On November 11, FTX officially announced that it had filed for Chapter 11 bankruptcy in the U.S., with its CEO Sam Bankman-Fried resigning from his position.
+
+
+
+Here you can find key statements of the individual exchanges.
+
+## Bybit
+
+Since FTX announced its bankruptcy, the industry has plunged into a state of frenzy. In a bid to soothe frazzled nerves, crypto exchanges worldwide — including Coinbase, Binance and Bybit — have either made their Merkle tree reserve certificates public, or plan to do so in the near future.
+
+In a tweet dated November 9, 2022, Ben Zhou, CEO of Bybit, reassured clients that Bybit has always [been] committed to client fund safety and guarantees 1-to-1 reserves.
+
+Tweet by Bybit CEO Ben Zhou
+Source: Ben Zhou on Twitter
+
+### Looking Ahead (2023 and Beyond)
+
+With more crypto exchanges jumping aboard, proof of reserves will hopefully be cemented soon as a standard practice in the industry. In the meantime, if any of your assets are stored directly on crypto exchanges, consider transferring them over to hardware wallets (cold wallets) for additional security.
+
+Overall, proof of reserves is just one criterion with which you can assess the trustworthiness of a crypto platform. As the saying goes, an ounce of prevention is worth a pound of cure. We encourage you to be proactive by reading up on ways in which you can protect your cryptocurrency.
+
+![POR message](img/bybit/bybit_por_twitter_1.png)
+
+For further details visit [Bybit Learn](https://learn.bybit.com/blockchain/what-is-proof-of-reserves-por/).
+
+
+## OKX (formerly OKEx)
+
+### Introducing OKX Proof of Reserves
+
+Verify your assets with OKX's Proof of Reserves
+Our number one priority is to always ensure the safety of our users' funds. But we don't want you to take our word for it. We want you to verify. That's why 
+we've recently:
+
+1. Published our on-chain wallet holdings on Nansen, where you can verify that we hold massive reserves of high-quality tokens in cold storage.
+2. Published our first Merkle tree Proof of Reserves (PoR) audit, showing we custody our users' funds 1:1.
+3. Launched a self-audit feature, making it easy for you to confirm that we hold your assets and to verify our total reserve holdings and reserve ratio.
+
+But that's just the beginning. We're working on a couple more steps:
+
+1. Moving forward, we'll conduct regular audits to update our reserve ratio and the status of your assets.
+2. The self-audit feature currently supports Bitcoin (BTC), Ethereum (ETH), and Tether (USDT) – we'll add more assets over time for maximum transparency.
+
+### How to make a self-audit on OKX
+
+You can easily verify we custody your funds 1:1 in a couple of ways:
+
+1. Quick check. To verify if the asset balance of your account has been included as a Merkle leaf, log in to your OKX account, hover over Assets and click Audits. There you'll see our recent audits – click on View details to view the details of your audit's data.
+2. Self-audit. You can manually inspect your assets in the Merkle tree by putting our reserves' data structure in the OKX open-source verification tool, MerkleValidator. And if you don't trust our open-source tool, you can even write a similar program for yourself following a few steps!
+
+For further details visit [OKX Learn](https://www.okx.com/learn/proof-of-reserves).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Exchange Overview
+
+Here you can find an overview of key features of the individual exchanges.
+
+## Bybit
+
+Started in 2018, the ByBit platform posits itself as the key market player in the crypto derivatives space, friendly to veteran and newcomer traders alike. Led by its CEO Ben Zhou, the platform is based in Singapore, but its outreach is already a global one, thanks to an impressive array of features, including:
+
+* Margin trading with up to 100x leverage. Trade Bitcoin, Ethereum, EOS, and XRP perpetual contracts with up to 50x, 100x or lower leverage to find a suitable balance between risk and profits.
+* Multi-currency support. At ByBit, you have the ability to deposit, withdraw, and open positions in BTC, ETH, EOS, XRP, and even USDT (not available for trading, hedging only). Use the internal Asset Exchange feature to convert cryptocurrencies with ease.
+* Low fees. ByBit offers some of the most competitive margin trading fees on the market.
+* No KYC exchange. The platform does not ask you for any personal or private information.
+* Powerful and well-designed trading interface. ByBit has a robust, powerful and well-designed platform and is easy to navigate yet is full of advanced options. It can handle up to 100,000 trades per second.
+* Secure platform. The exchange has no history of hacks, breaches, or leaked user information.
+24/7 customer support. The support is available in multiple languages and takes the form of desk-based live chat function and email.
+
+All in all, ByBit is a relatively fresh yet ambitious margin trading exchange and a viable alternative to competing leverage trading sites like BitMEX or PrimeXBT.
+
+Bybit is a relatively new exchange that started in the 2018 bear market. Although its headquarters is in Singapore, the exchange is incorporated in the British Virgin Islands as Bybit Fintech Limited. Besides Singapore, ByBit has offices in Hong Kong and Taiwan.
+
+For further details visit [Cryptonews Review](https://cryptonews.com/reviews/bybit-review/).
+
+## OKX (formerly OKEx)
+
+Too many options could be daunting for someone just getting into crypto. Although there are such a range of finance choices with OKX, the platform is arranged in a simple and welcoming way. With a multitude of cryptocurrency pairs, fiat-to-crypto gateway, it is easy to see why OKX has become one of the biggest exchanges around. The high amount options you have at your disposal are reason alone to add OKX to your repertoire of exchanges:
+
+* Fiat-to-crypto on-ramp: OKX supports 400+ trading pairs and allows you to use Apple Pay, Visa, Mastercard, bank transfer, Alipay, WeChat pay, etc, to convert your fiat into crypto. They also support 30+ cryptocurrencies from Canadian dollars (CAD), Chinese yen (CNY), euros (EUR), Japanese yen (JPY), Hong Kong dollars (HKD), Chilean peso (CLP), and many more.
+* Margin trading: Using margin trading with up to 125x leverage, with perpetual, futures and options trading as well, there are a good amount of tools users can use to trade.
+* Finance options: A plethora of finance options with Earn, which lets you earn passive income on your crypto holdings, Loan, Jumpstart token staking feature, mining pool, OKX bridge feature, OKB utility token, OKX Cloud, OKX Blockdream Ventures, the options available are vast and some of the widest in the industry.
+* Extra security options: With mandatory 2FA authentication, mobile verification, Google Authenticator options, anti-phishing code, OKX’s claims of making security a priority are sound.
+* Decentralized exchange option: Along with standard DEX trading, OKX’s decentralized platform offers swap trading, liquidity pools, farm pools, decentralized wallet, OKX has tools for those who would rather exchange in a decentralized fashion.
+Overall, OKX will let you plunge deep into the cryptocurrency ecosystem with options you can experiment with. The platform attempts to become a ‘one-stop marketplace’. In many ways, OKX has succeeded in that regard.
+
+For further details visit [Cryptonews Review](https://cryptonews.com/reviews/okex/#pros--cons).
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# API Introduction
+
+## What is an API?
+
+API is an acronym for Application Programming Interface.
+
+API is an interface which enables interactions between different systems. Using API, you can interact with other services and products without knowing how to operate them. API is sometimes regarded as a "contract", which represents the agreement between each side: if one side sends a request, the agreement stipulates how another side will respond.
+
+## What does API do in cryptocurrency trading?
+
+API will enable you to interact with our exchange remotely and it will provide real-time price and support direct execution of trade. Providing API is the basic service of cryptocurrency exchange.
+
+Some functions of API:
+
+* Download real-time and historical market data
+* Processing trading orders remotely
+* Observe account positions and transactions history
+
+The following articles will show how to create an API key and connect to QQL.
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Bybit
+
+## Bybit: Creating API Keys and connecting to QQL
+
+1. Log in to your account at [Bybit](https://www.bybit.com)
+
+2. Follow the link to your Account API Management Page [Bybit API Management](https://www.bybit.com/app/user/api-management)
+
+3. Click CREATE NEW KEY
+    ![Create_Key](img/bybit/bybit_1_create_key.png)
+
+4. Select "API Transaction", put in a name (e.g. QQL), select "Read-Write", and choose "No IP Restriction".
+
+5. In Contracts tick "Orders and Positions"; Tick "Trade" for USDC Contracts, Derivatives API V3, and SPOT. Finally tick "Exchange History" and press "Submit". 
+
+    ![Select API Parameters](img/bybit/bybit_2_api_parameters.png)
+
+6. Perform the security verification to derive to an API overview.
+
+    ![Copy_API](img/bybit/bybit_3_copy_api.png)
+
+7. Open the QQL API Form page: [QQL API Form](https://qql-api-form.anvil.app/) and log in. At the first usage you need to "Sign up for a new account" and follow the steps. 
+
+    ![API_Form](img/bybit/bybit_4_qql_api_form.png)
+
+8. Enter your name (or alias), select the correct exchange and copy the API Key & API Secret from step 6. Finally press "Submit".
+
+    ![API_Form](img/bybit/bybit_5_qql_api_form_submitted.png)
+
+9. Go back to the Bybit API overview from step 6 and click "Understood" on the window with the 2 API Keys and create a reminder on your calendar for the date of expiration (3months from date of creation) of your API Key, so that you can create a new one a few days prior to the expiration.
+
+10. You are all Set and Ready to make Profits with Us!
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# OKX
+
+## OKX: Creating API Keys and connecting to QQL
+
+1. Log in to your account at [OKX](https://www.okx.com)
+
+2. Follow the link to your Account API Management Page [OKX API Management](https://www.okx.com/account/my-api)
+
+3. Click "Create V5 API key"
+    ![Create_Key](img/okx/okx_1_create_key.png)
+
+4. Select "API trading", put in an API name (e.g. QQL), create an own "Passphrase" select "Trade", and click "Confirm".
+
+5. Perform the security verification and press "Confirm".
+
+    ![Copy_API](img/okx/okx_3_copy_api.png)
+
+6. Open the QQL API Form page: [QQL API Form](https://qql-api-form.anvil.app/) and log in. At the first usage you need to "Sign up for a new account" and follow the steps. 
+
+    ![API_Form](img/bybit/bybit_4_qql_api_form.png)
+
+7. Enter your name (or alias), select "OKX" as exchange and copy the API Key & Secret Key (as API Secret) from step 5. Enter the Passphrase created in step 4 and finally press "Submit".
+
+    ![API_Form](img/okx/okx_5_qql_api_form_submitted.png)
+
+8. Go back to the OKX API overview from step 5 and click "Confirm".
+
+9. You are all Set and Ready to make Profits with Us!
+
+
+
+
+
